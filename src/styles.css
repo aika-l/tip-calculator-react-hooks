@@ -1,0 +1,71 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, rgb(24, 0, 0), rgb(155, 0, 0));
+}
+.container {
+  background-color: white;
+  width: 350px;
+  height: 550px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  text-align: left;
+}
+#header {
+  color: white;
+  background-color: rgb(48, 4, 4);
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+p {
+  padding: 0 0 0px 20px;
+  font-size: large;
+}
+.input {
+  width: 180px;
+  padding: 5px;
+  border: solid 1.6px black;
+  font-size: medium;
+  margin: 0 20px;
+}
+label,
+select {
+  margin-left: 20px;
+  font-size: medium;
+  padding: 5px;
+}
+#bill {
+  margin-left: 0;
+  width: 160px;
+}
+#btn {
+  color: white;
+  background-color: maroon;
+  padding: 10px 15px;
+  font-weight: bold;
+  margin: 10%;
+  margin-left: 30%;
+}
+#btn:hover {
+  background-color: rgb(65, 1, 1);
+}
+#btn:active {
+  transform: translateY(1px);
+}
+#numPpl {
+  margin-right: 0;
+}
+#people {
+  margin-left: 0;
+}
+#tip {
+  text-align: center;
+}
